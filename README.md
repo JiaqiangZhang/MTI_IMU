@@ -8,6 +8,6 @@ roslaunch xsens_mti_driver display.launch
 ```
 
 Device info:
-Device: MTi-300-2A8G4, with ID: 03782BC3 (The one on the dog)
-Device: MTi-300-2A8G4, with ID: 03782BC4
-Device: MTi-680G-8A1G6, with ID: 0080005009
+- Device: MTi-300-2A8G4, with ID: 03782BC3 (The one on the dog)
+- Device: MTi-300-2A8G4, with ID: 03782BC4
+- Device: MTi-680G-8A1G6, with ID: 0080005009
