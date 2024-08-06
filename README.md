@@ -38,6 +38,7 @@ If you aren't in the correct group, you can fix this in two ways:
 Be sure to replace dialout with the actual group name if it is different. After adding yourself to the group, either relogin to your user, or add the current terminal session to the group:
 
 `newgrp dialout`
+
 2) Use udev rules. Alternatively, put the following rule into /etc/udev/rules.d/99-custom.rules:
 
 `SUBSYSTEM=="tty", ATTRS{idVendor}=="2639", ACTION=="add", GROUP="$GROUP", MODE="0660"`
